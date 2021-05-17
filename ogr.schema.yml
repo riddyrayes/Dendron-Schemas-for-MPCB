@@ -1,0 +1,99 @@
+-
+  id: ogr
+  desc: Organic Reactions
+  parent: root
+  children:
+    - rxn
+    - red
+    - oxd
+    - conden
+    - elim
+    - subs
+    - rearr
+    - synt
+    - test
+    - reagent
+
+- id: rxn
+  parent: ogr
+  desc: General Reaction
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: conden
+  parent: ogr
+  desc: Condensation
+  namespace: true
+  children:
+    - mech
+    - appl
+- id: rearr
+  parent: ogr
+  desc: Rearrangement
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: synt
+  parent: ogr
+  desc: Synthesis
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: red
+  parent: ogr
+  desc: Reduction
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: oxd
+  parent: ogr
+  desc: Oxidation
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: elim
+  parent: ogr
+  desc: Elimination
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: subs
+  parent: ogr
+  desc: Substitution
+  namespace: true
+  children:
+  - mech
+  - appl
+- id: test
+  parent: ogr
+  desc: Analytical Test
+  namespace: true
+  children:
+  - mech
+  - appl
+
+- id: reagent
+  parent: ogr
+  namespace: true
+  children:
+    - prep
+    - prop
+    - uses
+
+- id: prep
+  desc: Preparation
+- id: prop
+  desc: Properties
+- id: uses
+  desc: Uses
+
+- id: mech
+  desc: Mechanism
+- id: appl
+  desc: Application

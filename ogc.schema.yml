@@ -1,0 +1,151 @@
+-
+  id: ogc
+  desc: Organic Compounds
+  parent: root
+  children:
+    - hydrocarbon
+    - oxygen
+    - nitrogen
+    - sulphur
+    - phosphorous
+    - halogen
+    - metallic
+    - poly
+    - dye
+
+- id: hydrocarbon
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: oxygen
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: nitrogen
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: sulphur
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: phosphorous
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: halogen
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+
+- id: metallic
+  desc: Organometallic Compounds
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: poly
+  desc: polymers
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: dye
+  namespace: true
+  parent: ogc
+  children:
+    - prep
+    - prop
+    - rxn
+    - iden
+    - dist
+    - sep
+    - uses
+    - conv
+
+- id: prep
+  desc: Preparation
+- id: prop
+  desc: Properties
+- id: rxn
+  desc: Reaction
+- id: iden
+  desc: Analytical Identification
+- id: dist
+  desc: Analytical Distinction
+- id: sep
+  desc: Separation of Mixtures
+- id: uses
+  desc: Uses
+- id: conv
+  desc: Conversions

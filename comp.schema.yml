@@ -1,0 +1,174 @@
+- 
+  id: comp
+  parent: root
+  namespace: true
+  desc: Compounds of the Elements of the Baryonic Periodic Table
+  children:          
+    - oxides
+    - hydrides
+    - halides
+    - nitrates
+    - sulphides
+    - sulphates
+    - carbonates
+    - acids
+    - bases
+    - salts
+    - phosphates
+    - carbides
+    - oxoacids
+    - manganate
+    - permanganate
+    - chromate
+    - dichromate
+    - allotropes
+    - complexes
+
+- id: oxides
+  desc: oxides
+  namespace: true
+  parent: comp
+  template:
+- id: hydrides
+  desc: hydrides
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: halides
+  desc: halides
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: nitrates
+  desc: nitrates
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: sulphides
+  desc: sulphides
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: sulphates
+  desc: sulphates
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: carbonates
+  desc: carbonates
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: acids
+  desc: acids
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: bases
+  desc: bases
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: salts
+  desc: salts
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: phosphates
+  desc: phosphates
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: carbides
+  desc: carbides
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: oxoacids
+  desc: oxoacids
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: manganate
+  desc: manganate
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: permanganate
+  desc: permanganate
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: chromate
+  desc: chromate
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: dichromate
+  desc: dichromate
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: allotropes
+  desc: allotropes
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note
+
+- id: complexes
+  desc: complexes
+  namespace: true
+  parent: comp
+  template:
+    id: comp.temp
+    type: note

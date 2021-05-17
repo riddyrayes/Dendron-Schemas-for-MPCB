@@ -1,0 +1,66 @@
+- 
+  id: king
+  desc: 5 Kingdoms of Living Organisms
+  parent: root
+  children:
+    - mo
+    - pr
+    - fu
+    - pl
+    - an
+
+
+- id: mo
+  desc: Monera
+  parent: king
+
+- id: pr
+  desc: Protista
+  parent: king
+  # children:
+
+- id: fu
+  desc: Fungi
+  parent: king
+  # children:
+
+- id: pl
+  desc: Plantae
+  parent: king
+  children:
+    - algae
+    - bryophyta
+    - pteridophyta
+    - gymnosperm
+    - angiosperm
+
+- id: algae
+  parent: pl
+  desc: Algae
+  namespace: true
+
+- id: bryophyta
+  parent: pl
+  desc: Bryophyta
+  namespace: true
+
+- id: pteridophyta
+  parent: pl
+  desc: Pteridophyta
+  namespace: true
+
+- id: gymnosperm
+  parent: pl
+  desc: Gymnosperm
+  namespace: true
+
+- id: angiosperm
+  parent: pl
+  desc: Angiosperm
+  namespace: true
+
+
+- id: an
+  desc: Animalia
+  parent: king
+  # children:

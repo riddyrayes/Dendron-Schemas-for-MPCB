@@ -1,0 +1,148 @@
+- 
+  id: elem
+  parent: root
+  desc: Elements of the Baryonic Periodic Table
+  children:
+    - hydrogen
+    - gr01
+    - gr02
+    - gr03-12-trans
+    - gr03-intrans
+    - gr13
+    - gr14
+    - gr15
+    - gr16
+    - gr17
+    - gr18
+
+
+- id: hydrogen
+  parent: elem
+  desc: Hydrogen
+
+
+- id: gr01
+  desc: Elements of Group 01
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr02
+  desc: Elements of Group 02
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr03-12-trans
+  desc: Transition Elements
+  parent: s
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr03-intrans
+  desc: Inner-Transition Elements
+  parent: s
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr13
+  desc: Elements of Group 13
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr14
+  desc: Elements of Group 14
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr15
+  desc: Elements of Group 15
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr16
+  desc: Elements of Group 16
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr17
+  desc: Elements of Group 17
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+- id: gr18
+  desc: Elements of Group 18
+  parent: elem
+  namespace: true
+  children:
+    - prep
+    - prop
+    - rxn
+    - uses
+    - test
+
+# elem.gr18.Ar(*).*
+- id: prep
+  desc: Preparation
+
+- id: prop
+  desc: Properties
+
+- id: rxn
+  desc: Reactions
+
+- id: uses
+  desc: Uses
+
+- id: test
+  desc: Analytical Tests
