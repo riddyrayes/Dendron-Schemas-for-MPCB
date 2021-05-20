@@ -1,0 +1,117 @@
+version: 1
+imports: []
+schemas:
+  - id: phy
+    title: Physics
+    parent: root
+    children:
+      - class
+      - rela
+      - quan
+
+  - id: class
+    title: Classical Physics 
+    children:
+      - lom
+      - loug
+      - astro
+      - opt
+      - wav
+      - elec
+      - ther
+      - cha
+      - me
+      - flu
+      - cal
+
+  - id: lom
+    title: Law of Motion
+    namespace: true
+
+  - id: loug
+    title: Law of Universal Gravitation 
+    namespace: true
+
+  - id: astro
+    title: Astrophysics
+    namespace: true
+
+  - id: opt
+    title: Optics
+    namespace: true
+
+  - id: wav
+    title: Waves
+    namespace: true
+
+  - id: elec
+    title: Electromagnetism 
+    namespace: true
+
+  - id: ther
+    title: Thermodynamics
+    namespace: true
+
+  - id: cha
+    title: Chaos Theory
+    namespace: true
+
+  - id: me
+    title: Classical Mechanics
+    namespace: true
+
+  - id: flu
+    title: Fluid Mechanics
+    namespace: true
+
+  - id: cal
+    title: Calculus
+    namespace: true
+
+  - id: rela
+    title: Relativity
+    children:
+      - gen
+      - spe
+  
+  - id: gen
+    title: General Theory of Relativity
+    namespace: true
+
+  - id: spe
+    title: Special Theory of Relativity
+    namespace: true
+
+  - id: quan
+    title: Quantum Physics
+    children:
+      - fi
+      - nuc 
+      - stan
+      - atom
+      - cmp
+      - part
+
+  - id: fi
+    title: Quantum Field Theory
+    namespace: true
+
+  - id: nuc
+    title: Nuclear Physics
+    namespace: true
+
+  - id: stan
+    title: The Standard Model
+    namespace: true
+
+  - id: atom
+    title: Atomic Theory
+    namespace: true    
+
+  - id: cmp
+    title: Condensed Matter Physics
+    namespace: true
+
+  - id: part
+    title: Particle Physics
+    namespace: true

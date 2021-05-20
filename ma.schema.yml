@@ -1,0 +1,287 @@
+version: 1
+imports: []
+schemas:
+  - id: ma
+    title: Maths 
+    parent: root
+    children: 
+      - num
+      - str
+      - space
+      - ch
+      - app
+      - foun
+
+  - id: foun
+    title: Foundations
+    children:
+      - math
+      - set
+      - comp
+      - cat
+
+  - id: math
+    title: Mathematical Logic
+    namespace: true
+
+  - id: set
+    title: Set Theory
+    namespace: true
+
+  - id: comp
+    title: Theory of Computation
+    namespace: true
+
+  - id: cat
+    title: Category Theory
+    namespace: true
+  
+  - id: num
+    title: Number Systems
+    children:
+      - nat
+      - int
+      - rat
+      - real
+      - comp
+      - expo
+      - quat
+      - octo
+      - pi
+      - prime
+      - infi
+      - cardi
+    
+  - id: nat
+    title: Natural Numbers 
+    namespace: true
+
+  - id: int
+    title: Integers
+    namespace: true
+
+  - id: rat
+    title: Rational Numbers 
+    namespace: true
+  
+  - id: real
+    title: Real Numbers 
+    namespace: true
+  
+  - id: comp
+    title: Complex Numbers 
+    namespace: true
+  
+  - id: expo
+    title: Exponential
+    namespace: true
+ 
+  - id: quat
+    title: Quaternion
+    namespace: true
+  
+  - id: octo
+    title: Octonion
+    namespace: true
+  
+  - id: pi
+    title: Pi
+    namespace: true
+  
+  - id: prime
+    title: Prime Numbers 
+    namespace: true
+  
+  - id: infi
+    title: Infinity
+    namespace: true
+  
+  - id: cardi
+    title: Cardinal Numbers 
+    namespace: true
+
+  - id: str
+    title: Structures
+    children:
+      - alg
+      - lin
+      - mat
+      - vec
+      - graph
+      - group
+      - order
+      - part
+      - num
+      - combi
+
+  - id: alg
+    title: Algebra
+    namespace: true
+
+  - id: lin
+    title: Linear Algebra
+    namespace: true
+
+  - id: mat
+    title: Linear Algebra
+    namespace: true
+  
+  - id: vec
+    title: Vectors
+    namespace: true
+  
+  - id: graph
+    title: Graph Theory
+    namespace: true
+  
+  - id: group
+    title: Group Theory
+    namespace: true
+  
+  - id: order
+    title: Order Theory
+    namespace: true
+  
+  - id: part
+    title: Partition Theory
+    namespace: true
+      
+  - id: num
+    title: Number Theory 
+    namespace: true
+  
+  - id: combi
+    title: Combinatory
+    namespace: true
+
+  - id: space
+    title: Spaces
+    children:
+      - geo
+      - tri
+      - frac
+      - topo
+      - diff
+      - meas
+    
+  - id: geo
+    title: Geometry
+    namespace: true
+
+  - id: tri
+    title: Trigonometry
+    namespace: true    
+
+  - id: frac
+    title: Fractal Geometry
+    namespace: true
+
+  - id: topo
+    title: Topology
+    namespace: true
+
+  - id: diff
+    title: Differential Geometry
+    namespace: true
+
+  - id: meas
+    title: Measure Theory
+    namespace: true
+
+  - id: ch
+    title: Changes
+    children:
+      - cal
+      - vec
+      - dyn
+      - chao
+      - comp
+  
+  - id: cal
+    title: Calculus
+    namespace: true
+
+  - id: vec
+    title: Vector Calculus
+    namespace: true
+
+  - id: dyn
+    title: Dynamical Systems
+    namespace: true
+
+  - id: chao
+    title: Chaos Theory
+    namespace: true
+
+  - id: comp
+    title: Complex Analysis
+    namespace: true
+
+  - id: app
+    title: Applied Mathematics
+    children:
+      - cryp
+      - pro
+      - comp
+      - stat
+      - opti
+      - fin
+      - eco
+      - game
+      - num
+      - eng
+      - bio
+      - chem
+      - phy
+
+  - id: cryp
+    title: Cryptography
+    namespace: true
+
+  - id: pro
+    title: Probability
+    namespace: true
+
+  - id: comp
+    title: Computer Science
+    namespace: true
+
+  - id: stat
+    title: Statistics
+    namespace: true 
+
+  - id: opti
+    title: Optimization
+    namespace: true
+
+  - id: fin
+    title: Mathematical Finance
+    namespace: true
+
+  - id: eco
+    title: Economics
+    namespace: true
+
+  - id: game
+    title: Game Theory
+    namespace: true
+
+  - id: num
+    title: Numerical Analysis
+    namespace: true
+
+  - id: eng
+    title: Engineering
+    namespace: true
+
+  - id: bio
+    title: Biomathematics
+    namespace: true
+
+  - id: chem
+    title: Mathematical Chemistry
+    namespace: true
+
+  - id: phy
+    title: Mathematical Physics
+    namespace: true
